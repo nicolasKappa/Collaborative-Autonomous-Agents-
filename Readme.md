@@ -6,7 +6,7 @@ picking up the item, taking it to the goblin, returning to the item's location a
 
 # Table of Content
 - [Set up](#Set-up)
-- [Requirements](#requirements)
+- [Requirements From the Mid-Module Assignment](#requirements-From-the-Mid-Module--Assignments)
 - [Opening_Environment](#opening Environment)
 - [Index.HTML](#Hero.asl)
 - [History.HTML](#History.HTML)
@@ -29,3 +29,6 @@ git clone https://github.com/nicolasKappa/Multi-Agent_System.git
 
 4. Integrating JASON into Visual Studio Code
 - The following readme includes the contect for integrating JASON into VS Code https://github.com/jason-lang/jason/blob/main/doc/tutorials/vscode/readme.adoc
+
+
+# Requirements From the Mid-Module Assignment
