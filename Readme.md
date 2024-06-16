@@ -8,8 +8,7 @@ picking up the item, taking it to the goblin, returning to the item's location a
 - [Set up](#Set-up)
 - [Tasks From the Mid-Module Assignment](#Tasks-From-the-Mid-Module--Assignment)
 - [Opening_Environment](#opening_Environment)
-- [Index.HTML](#Hero.asl)
-- [History.HTML](#History.HTML)
+- [Hero.asl](#Hero.asl)
 - [License](#License)
 - [Contributing](#Contributing)
 
@@ -36,3 +35,12 @@ git clone https://github.com/nicolasKappa/Multi-Agent_System.git
 
 # Opening Environment 
 - First Forest.masj2 needs to be opened, since it creates enviroment within VS Code. Forest1.java to Forest7.java are different forests where coin,vase and gem are located on different locations. In some environments there are more than one items or no items at all.
+
+# Hero.asl
+- Hero is the mainc characater in the project. It needs to see the item, pick it up, take it to goblin, move back to the very same place and continiue retrival until there is no more items in the forest and it reaches the end of the forest. The hero is written in AgentSpeak.
+
+# License 
+- MIT
+
+# Contributing
+- You can Freely contribute according to README.MD
