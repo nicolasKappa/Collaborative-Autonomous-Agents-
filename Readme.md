@@ -1,12 +1,12 @@
 ## Multi-Agent System
 
-This is a mid-module assignment from the university of Liverpool created by the AgentSpeak at the JASON environment. Purpose of the project is to successfully create the hero, which can do different tasks such as
+This is a Multi-agent system project created by the AgentSpeak at the JASON environment. Purpose of the project is to successfully create the hero, which can do different tasks such as
 picking up the item, taking it to the goblin, returning to the item's location and continuing traversal until there is no more item in the forest. 
 
 
 # Table of Content
 - [Set up](#Set-up)
-- [Tasks From the Mid-Module Assignment](#Tasks-From-the-Mid-Module--Assignment)
+- [Tasks](#Tasks)
 - [Opening_Environment](#opening_Environment)
 - [Hero.asl](#Hero.asl)
 - [License](#License)
@@ -30,7 +30,7 @@ git clone https://github.com/nicolasKappa/Multi-Agent_System.git
 - The following readme includes the contect for integrating JASON into VS Code https://github.com/jason-lang/jason/blob/main/doc/tutorials/vscode/readme.adoc
 
 
-# Tasks From the Mid-Module Assignment
+# Tasks 
 - The hero agent is to move through the environment in a systematic way. It should collect a vase, coin, and gem. Upon finding these three items, it should then move to where the goblin is, and then drop the items in that position. If it does not find all three times, Then it should not visit the goblin. A rule has been placed in hero.asl for you. This rule is at(P). This rule will state whether it is true that the Hero agent is in the same position as the agent named in the parameter P. For example, if there is an agent named philby within the system, then adding the achievement goal !at(philby) will instruct the hero agent to achieve the state of affairs where it is at the same position in the grid as the agent philby. If you wish to use this rule, you must of course define a plan which is applicable.Your code within the hero.asl file should contain your name and student ID at the top, and it should be well commented - it is very important to convey your understanding through these comments.
 
 # Opening Environment 
