@@ -20,9 +20,6 @@ Clone the repository using the following command:
 ```bash
 git clone https://github.com/nicolasKappa/Collaborative-Autonomous-Agents.git
 ```
-
-
-
 2. Install Visual Studio Code
 - Ensure Visual Studio Code is installed https://visualstudio.microsoft.com/downloads/
 - To set up the project, Open the projct via Visual Studio Code and push live button on bottom right.
@@ -35,13 +32,18 @@ git clone https://github.com/nicolasKappa/Collaborative-Autonomous-Agents.git
 
 
 # Tasks 
-- The hero agent is to move through the environment in a systematic way. It should collect a vase, coin, and gem. Upon finding these three items, it should then move to where the goblin is, and then drop the items in that position. If it does not find all three times, Then it should not visit the goblin. A rule has been placed in hero.asl for you. This rule is at(P). This rule will state whether it is true that the Hero agent is in the same position as the agent named in the parameter P. For example, if there is an agent named philby within the system, then adding the achievement goal !at(philby) will instruct the hero agent to achieve the state of affairs where it is at the same position in the grid as the agent philby. If you wish to use this rule, you must of course define a plan which is applicable.Your code within the hero.asl file should contain your name and student ID at the top, and it should be well commented - it is very important to convey your understanding through these comments.
+* The hero agent is designed to systematically move through the environment, collect items, and deliver them to the goblin. The hero will:
+
+- Pick up a vase, coin, or gem.
+- Move to the goblin's location and drop the items.
+- Return to the item's location and continue until no more items remain.
+* The hero's actions are controlled using rules in the hero.asl file. The rule at(P) checks if the hero is at the same position as another agent. You should define a plan to manage the hero’s actions based on this rule.
 
 # Opening Environment 
-- First Forest.masj2 needs to be opened, since it creates enviroment within VS Code. Forest1.java to Forest7.java are different forests where coin,vase and gem are located on different locations. In some environments there are more than one items or no items at all.
+- Start with Forest.masj2, which sets up the environment in Visual Studio Code. The Forest1.java to Forest7.java files represent different forest environments with varying item placements.
 
 # Hero.asl
-- Hero is the mainc characater in the project. It needs to see the item, pick it up, take it to goblin, move back to the very same place and continiue retrival until there is no more items in the forest and it reaches the end of the forest. The hero is written in AgentSpeak.
+- The hero.asl file defines the main character's behavior, where the hero picks up items, delivers them to the goblin, and returns to continue collecting items. The code should be well-commented, and your name and student ID should appear at the top.
 
 # License 
 - MIT
