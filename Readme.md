@@ -46,7 +46,7 @@ git clone https://github.com/nicolasKappa/Collaborative-Autonomous-Agents.git
 - The hero.asl file defines the main character's behavior, where the hero picks up items, delivers them to the goblin, and returns to continue collecting items. The code should be well-commented, and your name and student ID should appear at the top.
 
 # License 
-- MIT
+- This project is licensed under the MIT License.
 
 # Contributing
 - Feel free to contribute to the project by following the guidelines provided in the repository.
