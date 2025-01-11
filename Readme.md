@@ -34,9 +34,10 @@ git clone https://github.com/nicolasKappa/Collaborative-Autonomous-Agents.git
 # Tasks 
 * The hero agent is designed to systematically move through the environment, collect items, and deliver them to the goblin. The hero will:
 
-- Pick up a vase, coin, or gem.
-- Move to the goblin's location and drop the items.
-- Return to the item's location and continue until no more items remain.
+1. Pick up a vase, coin, or gem.
+2. Move to the goblin's location and drop the items.
+3. Return to the item's location and continue until no more items remain.
+
 * The hero's actions are controlled using rules in the hero.asl file. The rule at(P) checks if the hero is at the same position as another agent. You should define a plan to manage the hero’s actions based on this rule.
 
 # Opening Environment 
