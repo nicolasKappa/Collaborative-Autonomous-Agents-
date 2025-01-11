@@ -1,7 +1,7 @@
 ## Multi-Agent System
 
-This is a Multi-agent system project created by the AgentSpeak at the JASON environment. Purpose of the project is to successfully create the hero, which can do different tasks such as
-picking up the item, taking it to the goblin, returning to the item's location and continuing traversal until there is no more item in the forest. 
+This project implements a multi-agent system using the AgentSpeak language within the JASON environment. The goal is to create a hero agent that can pick up items (vase, coin, and gem), deliver them to a goblin, and continue the process until all items are retrieved from the forest.
+
 
 
 # Table of Content
@@ -15,9 +15,13 @@ picking up the item, taking it to the goblin, returning to the item's location a
 
 # Set Up
 
-1. Clone the repository
-- Open a command prompt or terminal and run the following command\
-git clone https://github.com/nicolasKappa/Multi-Agent_System.git
+1. ### Clone the Repository
+Clone the repository using the following command:
+```bash
+git clone https://github.com/nicolasKappa/Collaborative-Autonomous-Agents.git
+```
+
+
 
 2. Install Visual Studio Code
 - Ensure Visual Studio Code is installed https://visualstudio.microsoft.com/downloads/
@@ -43,4 +47,4 @@ git clone https://github.com/nicolasKappa/Multi-Agent_System.git
 - MIT
 
 # Contributing
-- You can Freely contribute according to README.MD
+- Feel free to contribute to the project by following the guidelines provided in the repository.
