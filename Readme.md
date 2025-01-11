@@ -50,4 +50,5 @@ git clone https://github.com/nicolasKappa/Collaborative-Autonomous-Agents.git
 - This project is licensed under the MIT License.
 
 # Contributing
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 - Feel free to contribute to the project by following the guidelines provided in the repository.
